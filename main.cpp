@@ -397,7 +397,8 @@ extern "C" void* ThreadStats(void*) {
   return nullptr;
 }
 
-static const string mainnet_seeds[] = {"squorum.nodevalet.io", "dns1.heliumchain.org", "dns2.heliumchain.org", "dns3.heliumchain.org", "dns4.heliumchain.org", "dns5.heliumchain.org", ""};
+static const string mainnet_seeds[] = {"sqrseed.nodevalet.io", "dns0.heliumchain.org", "dns1.heliumchain.org", ""};
+
 static const string testnet_seeds[] = {""};
 static const string *seeds = mainnet_seeds;
 
