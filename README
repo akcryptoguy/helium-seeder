@@ -1,7 +1,7 @@
-helium-seeder
+sQuorum-seeder
 ==============
 
-Helium-seeder is a crawler for the Helium network, which exposes a list
+sQuorum-seeder is a crawler for the sQuorum network, which exposes a list
 of reliable nodes via a built-in DNS server.
 
 Features:
