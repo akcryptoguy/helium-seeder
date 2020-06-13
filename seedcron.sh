@@ -25,7 +25,7 @@ sleep 2
 sudo /root/squorum-seeder/dnsseed -h sqrseed.nodevalet.io -n squorum.nodevalet.io -p 53 -m akcryptoguy@gmail.com
 
 # first step is we need to identify if dnsseed is running
-# ps -a | grep dnsseed
+# ps aux | grep '[d]nsseed'
 
 # second step is we kill it the dnsseed if it is already running
 #kill $(ps aux | grep '[d]nsseed' | awk '{print $2}')
